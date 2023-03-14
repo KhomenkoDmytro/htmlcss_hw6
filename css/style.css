@@ -1,0 +1,128 @@
+body {
+  background-image: url('../assets/images/background\ 1.png');
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.container {
+  width: 1030px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  margin-top: 51px;
+  transition: color 1.3s;
+}
+.logo-img {
+  width: 53px;
+  height: 47px;
+  background-image: url('../assets/images/logo\ 3.svg');
+  transition: background-image 1.3s;
+}
+.logo-text {
+  width: 110px;
+  margin-left: 8px;
+}
+.logo-text > span:first-child {
+  font-weight: 700;
+  font-size: 26px;
+}
+.logo-text > span:last-child {
+  font-weight: 700;
+  font-size: 17px;
+}
+.logo:hover {
+  color: #f26522;
+}
+.logo:hover .logo-img {
+  width: 53px;
+  height: 47px;
+  background-image: url('../assets/images/logo\ 2.png');
+}
+
+.address > a {
+  display: block;
+  margin-bottom: 18px;
+  text-align: right;
+  transition: color 2s;
+}
+.address > a:first-child {
+  margin-top: 47px;
+}
+.address > a:hover {
+  color: #f26522;
+}
+.tour {
+  width: 300px;
+}
+.tours-wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  color: #ffffff;
+}
+.tour-img-wrapper {
+  position: relative;
+}
+.tour-prompt {
+  width: 302px;
+  height: 57px;
+  background: #f26522;
+  position: absolute;
+  bottom: 5px;
+  left: 1px;
+}
+.tour img {
+  width: 300px;
+  height: 220px;
+}
+.tour > p {
+  margin-top: 20px;
+  margin-bottom: 37px;
+}
+.tour-prompt {
+  display: flex;
+  opacity: 0;
+  justify-content: space-between;
+  padding: 5px 16px 12px;
+  text-align-last: left;
+  transition: opacity 2s;
+}
+.tour:hover .tour-prompt {
+  opacity: 1;
+}
+.tour:hover > p {
+  color: #f26522;
+}
+.tour-prompt p > span:first-child {
+  font-weight: 400;
+  font-size: 10px;
+}
+.tour-prompt p > span:last-child {
+  font-weight: 400;
+  font-size: 18px;
+}
+.tour-prompt p:last-child {
+  display: flex;
+  align-items: flex-end;
+  font-weight: 400;
+  font-size: 14px;
+}
+.tour-prompt p:last-child::after {
+  content: url('../assets/images/Vector\ 1.svg');
+  color: #ffffff;
+  position: relative;
+  margin-left: 16px;
+  bottom: -1px;
+}
+footer {
+  margin-top: 49px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #ffffff;
+}

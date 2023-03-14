@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: local('Roboto'), url('fonts/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?xxubn0');
+  src: url('fonts/icomoon.eot?xxubn0#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?xxubn0') format('truetype'),
+    url('fonts/icomoon.woff?xxubn0') format('woff'),
+    url('fonts/icomoon.svg?xxubn0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-castle .path1:before {
+  content: '\e900';
+  color: rgb(46, 32, 21);
+}
+.icon-castle .path2:before {
+  content: '\e901';
+  margin-left: -1.1279296875em;
+  color: rgb(249, 249, 249);
+}
+.icon-castle .path3:before {
+  content: '\e902';
+  margin-left: -1.1279296875em;
+  color: rgb(118, 108, 102);
+}
+.icon-castle .path4:before {
+  content: '\e903';
+  margin-left: -1.1279296875em;
+  color: rgb(157, 148, 144);
+}
+.icon-castle .path5:before {
+  content: '\e904';
+  margin-left: -1.1279296875em;
+  color: rgb(108, 92, 84);
+}
